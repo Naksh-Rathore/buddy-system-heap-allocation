@@ -1,7 +1,7 @@
 #include <stdlib.h>
 
 void *heap_malloc(size_t size);
-void free(void *ptr);
+void heap_free(void *ptr);
 
 int main() {
     return 0;
