@@ -11,6 +11,6 @@ void *heap_malloc(size_t size) {
     return malloc(size);
 }
 
-void free(void *ptr) {
+void heap_free(void *ptr) {
     free(ptr);
 }
